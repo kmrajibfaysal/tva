@@ -5,6 +5,10 @@
   color: white;
 }
 
+p {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 body {
   background-color: #1a0b2e;
 }
@@ -110,4 +114,15 @@ i {
 .host-card {
   border-radius: 40px;
   background-color: #2a0f4d;
+}
+
+footer {
+  background: url(./assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.6);
 }
