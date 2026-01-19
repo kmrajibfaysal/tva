@@ -36,13 +36,6 @@ i {
   background-color: transparent;
 }
 
-.hero {
-  background: url(./assets/hero-bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-}
-
 #microphone {
   background: linear-gradient(
     47.64deg,
@@ -88,12 +81,25 @@ i {
   padding: 40px;
 }
 
+@media screen and (max-width: 546px) {
+  .card {
+    padding: 30px;
+  }
+}
+
 .card h4,
 .video-card h4 {
   font-size: 24px;
   font-weight: bold;
   color: white;
   margin-top: 16px;
+}
+
+@media screen and (max-width: 546px) {
+  .card h4,
+  .video-card h4 {
+    font-size: 20px;
+  }
 }
 
 .card p {
