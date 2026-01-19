@@ -49,7 +49,7 @@
       </nav>
       <!-- Hero section -->
       <section
-        class="hero flex flex-col justify-center items-center gap-6 sm:gap-[46px] py-10 sm:py-[100px]"
+        class="hero flex flex-col justify-center items-center gap-6 sm:gap-[46px] py-10 sm:py-[100px] border-t border-[rgba(255,255,255,0.1)]"
       >
         <div
           id="microphone"
@@ -65,8 +65,10 @@
         <div class="text-center">
           <h1 class="font-extrabold text-4xl sm:text-6xl">TechWave</h1>
           <p class="my-2">
-            Your daily dose of tech insights, productivity hacks, and personal
-            growth
+            Your daily dose of tech insights, productivity hacks,<br
+              class="sm:hidden"
+            />
+            and personal growth
           </p>
           <div class="mt-5">
             <button class="grad-btn mx-1">
@@ -79,7 +81,29 @@
         </div>
       </section>
     </header>
-    <main></main>
+    <main>
+      <!-- About section -->
+      <section class="pt-10">
+        <div
+          class="info container mx-auto border-b border-[rgba(255,255,255,0.1)] pb-14"
+        >
+          <h1 class="font-extrabold text-4xl sm:text-6xl text-center">
+            About The Podcast
+          </h1>
+          <p class="my-2 text-center max-w-3/4 mx-auto">
+            TechWave is your go-to podcast for staying ahead in the fast-paced
+            world of technology. We break down complex topics into digestible
+            insights, explore productivity strategies that actually work, and
+            share stories of personal growth from industry leaders.
+            <br class="hidden sm:block" />
+            <br />
+            <br />
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
