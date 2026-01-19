@@ -67,3 +67,8 @@ i {
   border-radius: 50px;
   font-weight: bold;
 }
+
+.numbers h2,
+.numbers i {
+  color: rgba(0, 255, 136, 1);
+}
