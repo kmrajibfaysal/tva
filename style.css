@@ -100,7 +100,7 @@ i {
   padding: 40px;
 }
 
-@media screen and (max-width: 546px) {
+@media screen and (max-width: 576px) {
   .card {
     padding: 30px;
   }
@@ -114,7 +114,7 @@ i {
   margin-top: 16px;
 }
 
-@media screen and (max-width: 546px) {
+@media screen and (max-width: 576px) {
   .card h4,
   .video-card h4 {
     font-size: 20px;
